@@ -37,7 +37,7 @@ def read_file_as_image(data):
 
 @app.route('/')
 def hello_world():
-    return 'Hello from Koyeb'
+    return 'Backend is successfully running on cloud'
 
 
 @app.route('/predict/', methods=['POST'])
